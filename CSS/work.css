@@ -1,0 +1,156 @@
+body {
+    color: rgb(54, 49, 46);
+    margin: 0;
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+    line-height: 1.2;
+    background: rgb(248, 237, 252);
+}
+
+/*menu
+------------------------------------*/
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+    margin-top: 50px;
+}
+
+.menu li{
+    list-style: none;
+    margin: 0 10px;
+    color: rgb(54, 49, 46);
+    cursor: pointer;
+}
+
+/*buttons
+------------------------------------*/
+.button{
+    background: rgb(203, 236, 255);
+    color: rgb(54, 49, 46);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.button1{
+    background: rgb(248, 237, 252);
+    color: rgb(54, 49, 46);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  /*profile
+------------------------------------*/
+.header{
+    left: 100px;
+    top: 170px;
+    position: absolute;
+    z-index: 100;
+    padding:5px;
+    background: rgb(203, 236, 255);
+    border-radius: 10px;
+}
+
+/*jobs
+------------------------------------*/
+.job1{
+    background: rgb(203, 236, 255);
+    color: rgb(54, 49, 46);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    left: 600px;
+    top:290px;
+    position:absolute;
+    z-index: 100;
+}
+
+.albert{
+    height: 250px;
+    width: 400px;
+    left: 800px;
+    top: 240px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 50;
+}
+
+.description{
+    background: rgb(203, 236, 255);
+    color: rgb(54, 49, 46);
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    left: 100px;
+    top: 380px;
+    position:absolute;
+    z-index: 100;
+    width: 52%;
+}
+/*icons
+------------------------------------*/
+.social-icons{
+    right: 60px;
+    bottom: 77px;
+    position: absolute;
+}
+.social-icons ul li{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.social-icons ul li a{
+    color: rgb(192, 154, 236);
+    padding: 6px;
+    display: block;
+}
+
+/*decoration
+------------------------------------*/
+.block1{
+    background: rgb(192, 154, 236);
+    width: 235px;
+    height: 95px;
+    border-radius: 10px;
+    left: 89px;
+    top: 183px;
+    position: absolute;
+    z-index: 0;
+  }
+  
+.block2{
+      background: rgb(192, 154, 236);
+      width: 185px;
+      height: 65px;
+      border-radius: 10px;
+      left: 589px;
+      top: 303px;
+      position: absolute;
+      z-index: 0;
+    }
+  
+.block3{
+      background: rgb(192, 154, 236);
+      width: 755px;
+      height: 283px;
+      border-radius: 10px;
+      left: 89px;
+      top: 400px;
+      position: absolute;
+      z-index: 0;
+    }
+  
+.block4{
+      background: rgb(192, 154, 236);
+      width: 400px;
+      height: 250px;
+      border-radius: 10px;
+      left: 815px;
+      top: 225px;
+      position: absolute;
+      z-index: 0;
+    }
