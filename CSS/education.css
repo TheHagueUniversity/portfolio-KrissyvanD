@@ -7,53 +7,6 @@ body {
     background: rgb(255, 242, 242);
 }
 
-/*profile
-------------------------------------*/
-.header{
-    left: 100px;
-    top: 220px;
-    position: absolute;
-    z-index: 100;
-    padding:5px;
-    background: rgb(250, 242, 173);
-    border-radius: 10px;
-}
-
-.intro{
-    background: rgb(250, 242, 173);
-    position: absolute;
-    left: 100px;
-    top: 360px;
-    border-radius: 10px;
-    font-size: 25px;
-    width:70%;
-    z-index: 100;
-    padding: 10px;
-}
-
-.myself1{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    right: 100px;
-    top: 100px;
-    border-radius: 10px;
-    z-index:50;
-}
-
-.about{
-    background: rgb(250, 179, 179);
-    padding: 15px;
-    left: 100px;
-    bottom: 170px;
-    position: absolute;
-    border-radius: 10px;
-    color: rgb(54, 49, 46);
-    text-decoration: none;
-    z-index:100;
-}
-
-
 /*menu
 ------------------------------------*/
 .menu ul{
@@ -61,11 +14,59 @@ body {
     margin: 50px;
     margin-top: 50px;
 }
+
 .menu li{
     list-style: none;
     margin: 0 10px;
     color: rgb(54, 49, 46);
     cursor: pointer;
+}
+
+  /*profile
+------------------------------------*/
+.header{
+    left: 100px;
+    top: 170px;
+    position: absolute;
+    z-index: 100;
+    padding:5px;
+    background: rgb(250, 242, 173);
+    border-radius: 10px;
+}
+
+.study{
+    background: rgb(250, 242, 173);
+    color: rgb(54, 49, 46);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    left: 500px;
+    top:280px;
+    position:absolute;
+    z-index: 100;
+}
+
+.description{
+    background: rgb(250, 242, 173);
+    color: rgb(54, 49, 46);
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    left: 100px;
+    top: 400px;
+    position:absolute;
+    z-index: 100;
+    width: 52%;
+}
+
+.thuas{
+    height: 250px;
+    width: 400px;
+    left: 890px;
+    top: 270px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 50;
 }
 
 /*icons
@@ -106,54 +107,55 @@ body {
     border-radius: 5px;
     display: inline-block;
   }
+
 /*decoration
 ------------------------------------*/
 .block1{
-  background: rgb(250, 179, 179);
-  width: 300px;
-  height: 300px;
-  border-radius: 10px;
-  right: 90px;
-  top: 110px;
-  position: absolute;
-  z-index: 0;
-}
-
-.block2{
     background: rgb(250, 179, 179);
-    width: 1023px;
-    height: 125px;
-    border-radius: 10px;
-    left: 90px;
-    top: 375px;
-    position: absolute;
-    z-index: 60;
-  }
-
-.block3{
-    background: rgb(250, 179, 179);
-    width: 382px;
+    width: 140px;
     height: 95px;
     border-radius: 10px;
-    left: 90px;
-    top: 230px;
+    left: 89px;
+    top: 183px;
     position: absolute;
     z-index: 0;
   }
-
+  
+.block2{
+      background: rgb(250, 179, 179);
+      width: 750px;
+      height: 265px;
+      border-radius: 10px;
+      left: 89px;
+      top: 414px;
+      position: absolute;
+      z-index: 0;
+    }
+  
+.block3{
+      background: rgb(250, 179, 179);
+      width: 415px;
+      height: 85px;
+      border-radius: 10px;
+      left: 489px;
+      top: 300px;
+      position: absolute;
+      z-index: 51;
+    }
+  
 .block4{
-    background: rgb(250, 242, 173);
-    width: 110px;
-    height: 50px;
-    border-radius: 10px;
-    left: 110px;
-    bottom: 160px;
-    position: absolute;
-    z-index: 0;
-  }
+      background: rgb(250, 179, 179);
+      width: 400px;
+      height: 250px;
+      border-radius: 10px;
+      left: 900px;
+      top: 282px;
+      position: absolute;
+      z-index: 0;
+    }
 
   .pink{
-      width:100%;
-      height:100%; 
-      z-index: -10;
-  }
+    width:100%;
+    height:100%; 
+    z-index: 0;
+}
