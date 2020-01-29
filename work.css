@@ -157,3 +157,11 @@ body {
         height:100%; 
         z-index: -10;
     }
+
+.downloader{
+        right: 400px;
+        top: 530px;
+        position: absolute;
+        border-radius: 10px;
+      
+    }
