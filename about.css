@@ -26,9 +26,9 @@ body {
 ------------------------------------*/
 .myself2{
     height: 250px;
-    width: 350px;
+    width: 370px;
     left: 200px;
-    top: 230px;
+    top: 210px;
     position: absolute;
     border-radius: 10px;
     z-index: 50;
@@ -43,12 +43,49 @@ body {
     border-radius: 10px;
 }
 
+.description{
+    background: rgb(250, 242, 173);
+    color: rgb(54, 49, 46);
+    padding: 5px;
+    border-radius: 10px;
+    left: 600px;
+    top: 210px;
+    position:absolute;
+    z-index: 100;
+    width: 45%;
+}
+
+.hobby{
+    background: rgb(250, 242, 173);
+    color: rgb(54, 49, 46); 
+    padding: 5px;
+    border-radius: 10px;
+    left:600px;
+    top: 770px;
+    width: 45%;
+    position:absolute;
+
+}
+
+.skills{
+    background: rgb(250, 179, 179); 
+    color: rgb(54, 49, 46); 
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    width: 30.5%;
+    top: 500px;
+    left: 120px;
+}
+
+
 /*icons
 ------------------------------------*/
 .social-icons{
     right: 60px;
     bottom: 80px;
     position: absolute;
+    
 }
 .social-icons ul li{
     list-style: none;
@@ -62,6 +99,10 @@ body {
     display: block;
 }
 
+.social-icons ul li a:hover{
+    color:rgb(253, 125, 125);
+}
+
 /*buttons
 ------------------------------------*/
 .button{
@@ -73,13 +114,8 @@ body {
   display: inline-block;
 }
 
-.button1{
-    background: rgb(250, 179, 179);
-    color: rgb(54, 49, 46);
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
+.button:hover {
+    background-color: rgb(250, 179, 179);
   }
 
 /*decoration

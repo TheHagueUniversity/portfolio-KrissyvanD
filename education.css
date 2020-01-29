@@ -88,6 +88,11 @@ body {
     display: block;
 }
 
+.social-icons ul li a:hover{
+  color:rgb(253, 125, 125);
+}
+
+
 /*buttons
 ------------------------------------*/
 .button{
@@ -99,15 +104,9 @@ body {
   display: inline-block;
 }
 
-.button1{
-    background: rgb(250, 179, 179);
-    color: rgb(54, 49, 46);
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
+  .button:hover {
+    background-color: rgb(250, 179, 179);
   }
-
 /*decoration
 ------------------------------------*/
 .block1{
@@ -145,11 +144,11 @@ body {
   
 .block4{
       background: rgb(250, 179, 179);
-      width: 400px;
-      height: 250px;
+      width: 395px;
+      height: 247px;
       border-radius: 10px;
-      left: 900px;
-      top: 282px;
+      left: 905px;
+      top: 285px;
       position: absolute;
       z-index: 0;
     }
