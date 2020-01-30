@@ -22,6 +22,52 @@ body {
     cursor: pointer;
 }
 
+/*profile
+------------------------------------*/
+.header{
+    left: 100px;
+    top: 170px;
+    position: absolute;
+    z-index: 100;
+    padding:5px;
+    background: rgb(250, 242, 173);
+    border-radius: 10px;
+}
+
+.description{
+    background: rgb(250, 242, 173);
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    border-radius: 10px;
+    font-size: 25px;
+    width:60%;
+    z-index: 100;
+    padding: 10px;
+}
+
+.contact{
+    background: rgb(250, 242, 173);
+    padding: 15px;
+    left: 270px;
+    bottom: 190px;
+    position: absolute;
+    border-radius: 10px;
+    color: rgb(54, 49, 46);
+    text-decoration: none;
+    z-index:100;
+}
+
+.selfie{
+    width: 400px;
+    height: 300px;
+    top: 400px;
+    right: 220px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 40;
+}
+
 /*buttons
 ------------------------------------*/
 .button{
@@ -60,8 +106,53 @@ body {
     color:rgb(253, 125, 125);
 }
 
+/*decoration
+------------------------------------*/
 .pink{
     width:100%;
     height:100%; 
     z-index: -10;
+}
+.block1{
+    width: 200px;
+    height: 100px;
+    left: 85px;
+    top: 181px;
+    position: absolute;
+    border-radius: 10px;
+    background: rgb(250, 179, 179);
+    z-index: 0;
+}
+
+.block2{
+    width: 880px;
+    height: 50px;
+    left: 185px;
+    top: 315px;
+    background: rgb(250, 179, 179);
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.block3{
+    width: 325px;
+    height: 190px;
+    left: 255px;
+    bottom: 175px;
+    background: rgb(250, 179, 179);
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.block4{
+    width: 400px;
+    height: 300px;
+    top: 415px;
+    right: 205px;
+    background: rgb(250, 179, 179);
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
 }
