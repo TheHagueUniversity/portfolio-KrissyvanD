@@ -60,7 +60,7 @@ body {
     width: 52%;
 }
 
-.hallmark1{
+.art1{
     height: 250px;
     width: 400px;
     left: 890px;
@@ -70,7 +70,7 @@ body {
     z-index: 50;
 }
 
-.hallmark2{
+.art2{
     height: 250px;
     width: 400px;
     left: 890px;
@@ -80,7 +80,7 @@ body {
     z-index: 50;
 }
 
-.hallmark3{
+.art3{
     height: 250px;
     width: 400px;
     left: 890px;
@@ -144,7 +144,7 @@ body {
 .block2{
       background: rgb(250, 179, 179);
       width: 750px;
-      height: 505px;
+      height: 455px;
       border-radius: 10px;
       left: 89px;
       top: 394px;

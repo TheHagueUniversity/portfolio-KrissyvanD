@@ -69,6 +69,42 @@ body {
     z-index: 50;
 }
 
+
+.study2{
+  background: rgb(250, 242, 173);
+  color: rgb(54, 49, 46);
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  left: 500px;
+  top:750px;
+  position:absolute;
+  z-index: 100;
+}
+
+.description2{
+  background: rgb(250, 242, 173);
+  color: rgb(54, 49, 46);
+  padding: 5px;
+  border-radius: 10px;
+  display: inline-block;
+  left: 100px;
+  top: 870px;
+  position:absolute;
+  z-index: 100;
+  width: 52%;
+}
+
+.thuas2{
+  height: 250px;
+  width: 400px;
+  left: 890px;
+  top: 270px;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 50;
+}
+
 /*icons
 ------------------------------------*/
 .social-icons{
